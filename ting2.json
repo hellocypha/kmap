@@ -1,0 +1,75 @@
+{
+    "tings": [{
+	   "tId": "0x909bd6c87c61af3e47886773aa6eea55648f303244c33f3241940fe8676b69d6",
+	    "ownerId": "0xdd21ec1b190f9aebd2ce508b7d50f9b2577573fa",
+	    "creatorId": "0xb13041edf700e49f19ba6ded2da66bbffb80bd2e",
+	    "description": "Marks Ting",
+	    "locationData": {
+	    		"lat": 53.353851,
+				"lon": 9.8692409
+	   	},
+	   	"params": [
+	   		{"name": "Eigenschaft 1",
+	   		"value": "Ting No1",
+	   		"type": "string"
+	   		},
+	   		{"name": "Eigenschaft 2",
+	   		"value": "Familienbetrieb",
+	   		"type": "string"
+	   		}
+	   	],
+	    "creationTime": 1494923802,
+	    "bot":[{
+	    	"tId":"ting1",
+	    	"amount": 10000,
+	    	"unit": "g"
+	    	}],
+	    "kve":"pcs",
+	    "mkve": 1	
+	},
+	    {
+	   "tId": "ting1",
+	    "ownerId": "0xdd21ec1b190f9aebd2ce508b7d50f9b2577573fa",
+	    "creatorId": "0xb13041edf700e49f19ba6ded2da66bbffb80bd2e",
+	    "description": "Marks Ting",
+	    "locationData": {
+	    		"lat": 53.353851,
+				"lon": 9.8692409
+	   	},
+	   	"params": [
+	   		{"name": "Eigenschaft 1",
+	   		"value": "Ting No1",
+	   		"type": "string"
+	   		},
+	   		{"name": "Eigenschaft 2",
+	   		"value": "Familienbetrieb",
+	   		"type": "string"
+	   		}
+	   	],
+	    "creationTime": 1494923802,
+	    "bot":[{
+	    	}],
+	    "kve":"g",
+	    "mkve": 1		
+	}
+	],
+	"hops":[{
+		"type":"creation",
+		"amount": 100,
+		"unit": "pcs",
+		"tings":[
+			{"tId":"ting1"}],
+		"time": 1494923802,
+		"recipient": "0xb13041edf700e49f19ba6ded2da66bbffb80bd2e",
+		"sender": "0xb13041edf700e49f19ba6ded2da66bbffb80bd2e"
+	},
+	{"type":"transfer",
+		"amount": 100,
+		"unit": "pcs",
+		"tings":[
+			{"tId":"ting1"}],
+		"time": 1494923802,
+		"recipient": "0xb13041edf700e49f19ba6ded2da66bbffb80bd2e",
+		"sender": "0xb13041edf700e49f19ba6ded2da66bbffb80bd2e"
+	}]
+}

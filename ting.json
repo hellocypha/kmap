@@ -1,0 +1,17 @@
+{
+    "ting": {
+	   "tId": "0x909bd6c87c61af3e47886773aa6eea55648f303244c33f3241940fe8676b69d6",
+	    "owner": "0xdd21ec1b190f9aebd2ce508b7d50f9b2577573fa",
+	    "creator": "0xb13041edf700e49f19ba6ded2da66bbffb80bd2e",
+	    "description": "Marks Ting",
+	    "image": "/image/marker_small.png",
+	    "image1": "/image/carbon.png",
+	    "customData": {
+	    	"locationData": {
+	    		"lat": 53.353851,
+				"lon": 9.8692409
+	    	}
+	    },
+	    "creationTime": 1494923802
+	}
+}

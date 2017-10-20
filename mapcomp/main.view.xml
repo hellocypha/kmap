@@ -1,0 +1,11 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="mapcomp.main" xmlns:kmap="cypha.koala" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+<kmap:KoalaMap id="map"  zoom="11" latitude="{ting>/ting/customData/locationData/lat}" longitude="{ting>/ting/customData/locationData/lon}" >
+
+	    </kmap:KoalaMap>
+	    <Button press="onAdd" text="add"></Button>
+		</content>
+	</Page>
+</core:View>
